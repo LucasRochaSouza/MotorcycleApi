@@ -12,4 +12,4 @@ WORKDIR /app
 ENV DOTNET_ENVIRONMENT=Docker
 ENV DOTNET_RUNNING_IN_CONTAINER=true
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "API.dll"]
+ENTRYPOINT ["dotnet", "Api.dll"]
