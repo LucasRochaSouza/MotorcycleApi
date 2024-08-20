@@ -27,4 +27,4 @@ To test and run this project, follow these steps:
    docker-compose up -d
    ```
 
-This will start the application and its dependencies in detached mode. You can then access the application swagger at localhost:8680/swagger.
+This will start the application and its dependencies in detached mode. You can then access the application swagger at http://localhost:8680/swagger.
